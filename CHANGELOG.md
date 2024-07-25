@@ -11,296 +11,15 @@ Acronyms:
 
 **Bolded text highlights its importance.**
 
-## [3.7.9] - 2024-05-30
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Remove redundant `currentpdfbookmark` for English bachelor thesis ([95ef418](https://github.com/BITNP/BIThesis/commit/95ef418e8d3452d920c6b3aa3a3479c036803e54)) by @CreeperLKF
-- Toc entry in bookmarks should not point to the tail of toc in Chinese bachelor thesis ([9e1f0e4](https://github.com/BITNP/BIThesis/commit/9e1f0e4a2a16e4b048fcf814d1c49da73d2a9c09)) by @CreeperLKF in [#522](https://github.com/BITNP/BIThesis/pull/522)
-
-### <!-- 3 -->📚 Documentation
-
-- 更新生僻字使用提示，限制作用范围 ([31abab0](https://github.com/BITNP/BIThesis/commit/31abab00a1ea56620b2931be9edb63125c7f50e4)) by @YDX-2147483647 in [#521](https://github.com/BITNP/BIThesis/pull/521)
-- 在更多地方介绍如何添加水印 ([a9a1aa7](https://github.com/BITNP/BIThesis/commit/a9a1aa7c729c43db3c2e291968a3fcf3f1fc1adc)) by @YDX-2147483647 in [#520](https://github.com/BITNP/BIThesis/pull/520)
-- Add title property in `BITSetup.info` for undergraduate-thesis-en ([3f92180](https://github.com/BITNP/BIThesis/commit/3f9218014421a3278220073bff7ac39d08f333f2)) by @CreeperLKF
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- 编译快速使用手册 ([ef0e51e](https://github.com/BITNP/BIThesis/commit/ef0e51ef06765a459eb8e23d6e4a90a6f6e6d28f)) by @YDX-2147483647 in [#519](https://github.com/BITNP/BIThesis/pull/519)
-- Update bithesis.dtx version to 3.7.9 ([6d56033](https://github.com/BITNP/BIThesis/commit/6d56033f5cdcab31c89542959854e8ede368b9c7)) by @fky2015
-
-## New Contributors
-* @CreeperLKF made their first contribution in [#522](https://github.com/BITNP/BIThesis/pull/522)
-## [3.7.8] - 2024-05-27
+## [unreleased]
 
 ### <!-- 0 -->🚀 Features
 
-- `misc/algorithmSeparation`选项调整算法与文字之间的距离（仅针对algorithm2e宏包） ([0bffec6](https://github.com/BITNP/BIThesis/commit/0bffec67a3d774fcd19e14b19d0b32f0c75009b0)) by @YDX-2147483647 in [#510](https://github.com/BITNP/BIThesis/pull/510)
-- 支持用`misc/tabularRowSeparation`调节`longtable`宏包 ([ecf5af8](https://github.com/BITNP/BIThesis/commit/ecf5af8506441e57ede5e3e50496079e7a0cf5bc)) by @YDX-2147483647
-- 让longtable与文字的间距与其它浮动体相近，并支持用`misc/floatSeparation`统一调整 ([f5f24e5](https://github.com/BITNP/BIThesis/commit/f5f24e5e0b5582acd32e486537f66cc348ec3db4)) by @YDX-2147483647 in [#513](https://github.com/BITNP/BIThesis/pull/513)
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- `misc/tabularRowSeparation`不应影响矩阵，并适配`longtable`宏包 ([2f6cf63](https://github.com/BITNP/BIThesis/commit/2f6cf63d054e67bc7a07948a02d2f03f5521a075)) by @YDX-2147483647 in [#499](https://github.com/BITNP/BIThesis/pull/499)
-- 去除longtable表格上框线和caption的多余间距 ([689de6c](https://github.com/BITNP/BIThesis/commit/689de6c057c1caf5a3dc3812a3d623f6772f61cf)) by @YDX-2147483647
-
-### <!-- 2 -->🚜 Refactor
-
-- 让硕博模板书脊上下居中，并适应长标题，避免与姓名粘连 ([9b315ee](https://github.com/BITNP/BIThesis/commit/9b315eebed82f7ff15e4f9277ab4ab501aa66d2e)) by @YDX-2147483647 in [#511](https://github.com/BITNP/BIThesis/pull/511)
-
-### <!-- 3 -->📚 Documentation
-
-- 修正快速使用手册中的`\isGraduateTF` ([2b0d3f3](https://github.com/BITNP/BIThesis/commit/2b0d3f30dce1eab39623173e9d8ec27cf9c9d761)) by @YDX-2147483647
-- 给本科英文模板添加盲审模式注释 ([8673d0a](https://github.com/BITNP/BIThesis/commit/8673d0acb91c9717ee0a7e0d326b266e5a702b90)) by @YDX-2147483647 in [#507](https://github.com/BITNP/BIThesis/pull/507)
-- Add an example for enumerate in publications ([6a2c1c1](https://github.com/BITNP/BIThesis/commit/6a2c1c177ea82ff0ddba92bd6de386a9114dc9b9)) by @fky2015 in [#515](https://github.com/BITNP/BIThesis/pull/515)
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Create dependabot.yml ([1cc4c09](https://github.com/BITNP/BIThesis/commit/1cc4c09c8aa9d13310527e6727e30c2042ec20fd)) by @YDX-2147483647 in [#488](https://github.com/BITNP/BIThesis/pull/488)
-- 发布快速使用手册 ([2f6bf7e](https://github.com/BITNP/BIThesis/commit/2f6bf7eb7cc93cc45572fbd84c31260341e18861)) by @YDX-2147483647 in [#493](https://github.com/BITNP/BIThesis/pull/493)
-- Remove redundant code for consistency with official examples ([cf34b13](https://github.com/BITNP/BIThesis/commit/cf34b13442542834a3e24ce36a235a00a39383fa)) by @fky2015 in [#514](https://github.com/BITNP/BIThesis/pull/514)
-- 在发行说明中提示快速使用指南等 ([9ac93e5](https://github.com/BITNP/BIThesis/commit/9ac93e52d934d92a47634e3ae8f32e41bb2a5d1d)) by @YDX-2147483647 in [#516](https://github.com/BITNP/BIThesis/pull/516)
-- Update version to 3.7.8 ([7a20e31](https://github.com/BITNP/BIThesis/commit/7a20e31d257596ae83f67983e7760da1c57c652e)) by @fky2015
-
-### Build
-
-- *(deps)* Bump actions/upload-artifact from 3 to 4 ([9a446f1](https://github.com/BITNP/BIThesis/commit/9a446f1fe8c509c2b98788ef4c184d3d90e8d767)) by @dependabot[bot] in [#489](https://github.com/BITNP/BIThesis/pull/489)
-- *(deps)* Bump actions/download-artifact from 3 to 4 ([4d6c99d](https://github.com/BITNP/BIThesis/commit/4d6c99d2b0ea874ca1eaa4cda0e345151ea0de65)) by @dependabot[bot] in [#490](https://github.com/BITNP/BIThesis/pull/490)
-- *(deps)* Bump xu-cheng/texlive-action from 1 to 2 ([648c5b8](https://github.com/BITNP/BIThesis/commit/648c5b86cc793399f5201a21f231a44aab9adb91)) by @dependabot[bot] in [#492](https://github.com/BITNP/BIThesis/pull/492)
-
-## [3.7.7] - 2024-05-04
-
-### <!-- 0 -->🚀 Features
-
-- `misc/tabularRowSeparation`选项调整表格行间距 ([b406d67](https://github.com/BITNP/BIThesis/commit/b406d67dab3aab0507d5c6d3bb4db4a06918243d)) by @YDX-2147483647
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- 调整本科模板表格 caption 和表格本体间的距离 ([ad44533](https://github.com/BITNP/BIThesis/commit/ad4453394e96509a3f2635377e9a9b7e1e3ae478)) by @YDX-2147483647 in [#483](https://github.com/BITNP/BIThesis/pull/483)
-- Better bookmark ([bac87b5](https://github.com/BITNP/BIThesis/commit/bac87b5555d902632be7123b8b8e66260abc276a)) by @fky2015 in [#480](https://github.com/BITNP/BIThesis/pull/480)
-
-### <!-- 2 -->🚜 Refactor
-
-- 所有本科模板表格示例统一使用三线表 ([7c137df](https://github.com/BITNP/BIThesis/commit/7c137df200b68bcb357582e8c3fd6a1305fa499a)) by @YDX-2147483647
-- 本科模板表格示例`\linespread`换为`misc/tabularRowSeparation` ([17398c5](https://github.com/BITNP/BIThesis/commit/17398c5d2021690b593e1435cb09bc36a3a5cb47)) by @YDX-2147483647
-
-### <!-- 3 -->📚 Documentation
-
-- 强调关键词应在`main.tex`设置 ([7ca7b99](https://github.com/BITNP/BIThesis/commit/7ca7b99ced4b67af6a209d25b6d679119ad048ef)) by @YDX-2147483647 in [#484](https://github.com/BITNP/BIThesis/pull/484)
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Fix changelog ([d634c1b](https://github.com/BITNP/BIThesis/commit/d634c1bfb6655a8ce430555a1f3c4ca02a2d83bc)) by @YDX-2147483647 in [#485](https://github.com/BITNP/BIThesis/pull/485)
-- Update to v3.7.7 ([ee6a901](https://github.com/BITNP/BIThesis/commit/ee6a901d00ebcaa30567ab1ee9490b9d1217875f)) by @fky2015
-
-## [3.7.6] - 2024-04-29
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- `\usepackage[chapter]{algorithm}`时开头不应出现“algorithm2ealgochaper”字样 ([c755a92](https://github.com/BITNP/BIThesis/commit/c755a926a191f5f06c90250ab461c61b9cc21bf7)) by @YDX-2147483647 in [#481](https://github.com/BITNP/BIThesis/pull/481)
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Update version to 3.7.6 ([c5a624f](https://github.com/BITNP/BIThesis/commit/c5a624f3f8ecf453030c5437dcd1f47806b6129b)) by @fky2015
-
-## [3.7.5] - 2024-04-24
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Fix bug ([fb4a42e](https://github.com/BITNP/BIThesis/commit/fb4a42e16a5889c8a54c4648f4d8b66f6f53adf4))
-- Typo ([e407727](https://github.com/BITNP/BIThesis/commit/e407727dd4094ce302c35b0c10264463b1ec9d13)) by @YDX-2147483647 in [#459](https://github.com/BITNP/BIThesis/pull/459)
-- 改正`tabularx`环境中的字号 ([9452d43](https://github.com/BITNP/BIThesis/commit/9452d438c9ecc7764397cdd56e48732a04309a10)) by @YDX-2147483647 in [#462](https://github.com/BITNP/BIThesis/pull/462)
-
-### <!-- 2 -->🚜 Refactor
-
-- 删除表格中无用的`\zihao{5}` ([d2a2943](https://github.com/BITNP/BIThesis/commit/d2a29437e99f964007d89ead11b612ce11a4207e)) by @YDX-2147483647 in [#461](https://github.com/BITNP/BIThesis/pull/461)
-- 只在按章编号时适配algorithm宏包 ([0a4fca2](https://github.com/BITNP/BIThesis/commit/0a4fca2df6a99fb7977b336cf6146af3edb58f6f)) by @YDX-2147483647 in [#469](https://github.com/BITNP/BIThesis/pull/469)
-
-### <!-- 3 -->📚 Documentation
-
-- Add comment doc for hyphenation. ([f607b35](https://github.com/BITNP/BIThesis/commit/f607b35e75a78ba073273ebd06aa06653c24c5b3)) by @fky2015
-- One doc for both graduate and undergraduate ([55a7cae](https://github.com/BITNP/BIThesis/commit/55a7cae6c007f451b4b3cedd583ae1029b53cf99)) by @fky2015
-- 参考同学建议修改 ([ddd3c91](https://github.com/BITNP/BIThesis/commit/ddd3c91710889611e7dc15709ebc00548cbd0d66)) by @YDX-2147483647
-- Use `\autoref` ([9e76447](https://github.com/BITNP/BIThesis/commit/9e76447a682e303e5c63aee3f4296d630e5d4ef2)) by @YDX-2147483647
-- 改正标点符号 ([1c2e171](https://github.com/BITNP/BIThesis/commit/1c2e1719c68d9a7d99c1ef8039e808a0e0288a87)) by @YDX-2147483647 in [#473](https://github.com/BITNP/BIThesis/pull/473)
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Make the skips for math env bigger. ([39c27df](https://github.com/BITNP/BIThesis/commit/39c27dfe8e79b53bddddb1332e5e6ca48bade200)) by @fky2015 in [#472](https://github.com/BITNP/BIThesis/pull/472)
-- Update version to 3.7.5 ([3fd7b22](https://github.com/BITNP/BIThesis/commit/3fd7b2269e8840737d4f82fd1e3a981104b584dc)) by @fky2015
-
-## New Contributors
-* @ made their first contribution
-## [3.7.4] - 2024-04-16
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Support the `algorithm2e` package ([0f1b217](https://github.com/BITNP/BIThesis/commit/0f1b2175e47723b01ff092167528d650c59a4d3f)) by @YDX-2147483647 in [#456](https://github.com/BITNP/BIThesis/pull/456)
-
-### <!-- 3 -->📚 Documentation
-
-- Add more comments. ([e4cc9b9](https://github.com/BITNP/BIThesis/commit/e4cc9b9d0012dc92970aa2df87b74f4e0ab711c1)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Add star history in readme ([97195c0](https://github.com/BITNP/BIThesis/commit/97195c0576005a3bb19075256ab84d9a3b75df05)) by @fky2015 in [#458](https://github.com/BITNP/BIThesis/pull/458)
-- Update version to 3.7.4 ([8f6f509](https://github.com/BITNP/BIThesis/commit/8f6f5095708170362a14f3017dc7702b2b5dd9f5)) by @fky2015 in [#460](https://github.com/BITNP/BIThesis/pull/460)
-
-## [3.7.3] - 2024-04-11
-
-### <!-- 0 -->🚀 Features
-
-- Feat and fix: separation and blank space ([d08f571](https://github.com/BITNP/BIThesis/commit/d08f57194275221f38ac1d9cf06ccfbcc31e0b90)) by @SinCerely023
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Standardize algo ref name. ([6d45404](https://github.com/BITNP/BIThesis/commit/6d4540491db5432caf0c1fd319ac5d73c263bb79)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- 如何将自己电脑上的论文转到 Overleaf ([cf6ddfa](https://github.com/BITNP/BIThesis/commit/cf6ddfa0b86cd48ceb3b9fa04207ccccca76c121)) by @YDX-2147483647
-- Add comments for publications sorting. ([f7e9379](https://github.com/BITNP/BIThesis/commit/f7e9379075dc3ba28ef3c4525dd64cc127e44bdb)) by @fky2015
-- Sort publications ([fd21e5e](https://github.com/BITNP/BIThesis/commit/fd21e5e7c0705cb6c0ce5630c86eaf00d624f83c)) by @YDX-2147483647
-- *(readme)* Docs maintenance. ([28a27cc](https://github.com/BITNP/BIThesis/commit/28a27ccc44a59c5524970890146a173029da989f)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Improve usability for publications. ([938b215](https://github.com/BITNP/BIThesis/commit/938b2157dcc36dd73fb026f43d4c679405a5c5e4)) by @fky2015
-- Update version to 3.7.3 ([7760e33](https://github.com/BITNP/BIThesis/commit/7760e33d1726161d03d5a9de468f786a0e69b0b0)) by @fky2015
-
-### Build
-
-- Improve build script. ([1a97889](https://github.com/BITNP/BIThesis/commit/1a978891dbe788cb60d1c9852188112cfb39406d)) by @fky2015
-
-## [3.7.2] - 2024-04-06
-
-### <!-- 0 -->🚀 Features
-
-- Allow to use TeX Gyre Termes as the main fonts. ([139eeec](https://github.com/BITNP/BIThesis/commit/139eeec985fe4054b1441075b05295dcf9562c5b)) by @fky2015
-
-### <!-- 2 -->🚜 Refactor
-
-- Ballot boxes in cover and originality clause in GT ([58f9ee9](https://github.com/BITNP/BIThesis/commit/58f9ee9b5ed5fb1cbaf337adf75752bb3d4a222d)) by @YDX-2147483647
-
-### <!-- 3 -->📚 Documentation
-
-- One notice for paper-translation's title ([a95f0cf](https://github.com/BITNP/BIThesis/commit/a95f0cffc0e0e51734f567bce9cef4f6df003b10)) by @CZLeader
-- Font shape warnings ([773c27c](https://github.com/BITNP/BIThesis/commit/773c27c15ad23f0fa2ee2e9d7e7d8392208f48ce)) by @YDX-2147483647
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- *(typos)* Update for typos v1.20 ([2d300f1](https://github.com/BITNP/BIThesis/commit/2d300f100ad90b81fbc4a1b2bd291d69d7a84dc2)) by @YDX-2147483647
-- Add changelog generation action. ([53e9cee](https://github.com/BITNP/BIThesis/commit/53e9cee04d8d4a977fb0936709868e4e31ec3828)) by @fky2015
-- Simplify GitHub issue templates. ([8775738](https://github.com/BITNP/BIThesis/commit/8775738a03e4cc8484a8c1c96995729cb37db1a4)) by @fky2015
-- Update to v3.7.2 ([755f674](https://github.com/BITNP/BIThesis/commit/755f674695ba95a51e0a0e2105e14ccf6f5dbbd3)) by @fky2015
-
-## New Contributors
-* @CZLeader made their first contribution
-## [3.7.1] - 2024-03-26
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- *(GT)* Add a switch to show special type. ([c6cd86e](https://github.com/BITNP/BIThesis/commit/c6cd86eb070df519c538dbcfc2aa51ca5c4488ff)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- Update info for CTAN ([28b2808](https://github.com/BITNP/BIThesis/commit/28b28080ca4f9235430f4552f40f4658eb14a58a)) by @YDX-2147483647
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Automatically generate changelog. ([c664487](https://github.com/BITNP/BIThesis/commit/c6644876d50707677e16c788410c939499956d09)) by @fky2015
-- Fix broken cliff. ([d306cb4](https://github.com/BITNP/BIThesis/commit/d306cb4fd9ac42c1f58cb424495a5ea37df46161)) by @fky2015
-- No need to modify CHANGELOG manually anymore. ([598ff77](https://github.com/BITNP/BIThesis/commit/598ff7704112938efc2a1a83c0a1401e8f22d117)) by @fky2015
-- Upload to CTAN ([5f52d4f](https://github.com/BITNP/BIThesis/commit/5f52d4f79921a41573f691924bdbd9ea340b2c9f)) by @YDX-2147483647
-- Remove redundant “Generate changelog” ([54bbe79](https://github.com/BITNP/BIThesis/commit/54bbe79e3dbcb22d2f94ae2123a4ba255ff2c2e5)) by @YDX-2147483647
-- Bump version to 3.7.1 ([96965fd](https://github.com/BITNP/BIThesis/commit/96965fd9ab1cbae85f716ad039869776a69a8407)) by @fky2015
-
-## [3.7.0] - 2024-03-22
-
-### <!-- 0 -->🚀 Features
-
-- Update make grad. ([5562de4](https://github.com/BITNP/BIThesis/commit/5562de434a516d2ff1553df89fb9247cbc2bd0fb)) by @fky2015
-- *(GT)* Add support for special type. ([76255d8](https://github.com/BITNP/BIThesis/commit/76255d80467081cd952a99439ad1150f392f3ec8)) by @fky2015
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Remove `, et al.` etc. for `pub.bib` in `blindPeerReview` mode ([d604b0e](https://github.com/BITNP/BIThesis/commit/d604b0ee7285e673fc2cc711cb5b9874d7f4cbbb)) by @YDX-2147483647
-- Try fix github-action-markdown-link-check. ([9b64b96](https://github.com/BITNP/BIThesis/commit/9b64b96d40db2aed0cff6d692e2963c744eb2696)) by @fky2015
-- Zip without parent folder. ([94d14b2](https://github.com/BITNP/BIThesis/commit/94d14b2ea78949a14a2b332225ccaa35b67cd260)) by @fky2015
-- Update according new 2024 Word template. ([0609af7](https://github.com/BITNP/BIThesis/commit/0609af7820b5cbcd2898cd3a3b1e19e27c616350)) by @Manpopp
-
-### <!-- 2 -->🚜 Refactor
-
-- Colorize hyperlinks ([af43560](https://github.com/BITNP/BIThesis/commit/af4356015ffe396e05397c8169a42b7bb18cd4f9)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- Hyperref ([7f07e3c](https://github.com/BITNP/BIThesis/commit/7f07e3c7690fe3cf661bc57b470606c7c04df0eb)) by @YDX-2147483647
-- Update DEVELOPMENT.md ([08910a6](https://github.com/BITNP/BIThesis/commit/08910a64d20b0c7d987e838f7e23f9acd6b04849)) by @fky2015
-- *(dev)* Update `wiki/guide/preface.md` in `BIThesis-wiki` ([c4e9098](https://github.com/BITNP/BIThesis/commit/c4e9098f742cbe599e0edd34f59feef0c750d09d)) by @YDX-2147483647
-- Update readme. ([00abcf3](https://github.com/BITNP/BIThesis/commit/00abcf38d5454e5d987eaf58ee020c51258fea0f)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Bump version to v3.6.3 ([24ad394](https://github.com/BITNP/BIThesis/commit/24ad394fc5adeb7b50cd6fa2b736433f6b3920d0)) by @YDX-2147483647
-- Remove `make check-cls` ([8a0d5d1](https://github.com/BITNP/BIThesis/commit/8a0d5d19df58bc2c2b2834cbfac1b50bbb2b2cda)) by @YDX-2147483647
-- Update GitHub Actions' version ([eca4d67](https://github.com/BITNP/BIThesis/commit/eca4d678b3569d4200d81d36a775503e5699c637)) by @fky2015
-- Bump version to 3.7.0 ([9384774](https://github.com/BITNP/BIThesis/commit/93847740d897518dbc0ffa9ca00ba4c3282cfefe)) by @fky2015
-
-## New Contributors
-* @Manpopp made their first contribution
-## [3.6.2] - 2024-02-26
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Update styles of PT ([f32503b](https://github.com/BITNP/BIThesis/commit/f32503b053beec02dc73b5cd971ab3f8807c6b10)) by @YDX-2147483647
-- Typo ([27d3071](https://github.com/BITNP/BIThesis/commit/27d3071df752afd9f6304562e363d4e7db44ab0e)) by @YDX-2147483647
-
-### <!-- 2 -->🚜 Refactor
-
-- Stretch spaces in the cover of PT ([520e1d1](https://github.com/BITNP/BIThesis/commit/520e1d10df253c26053dcf6390af07d19232b264)) by @YDX-2147483647
-
-### <!-- 3 -->📚 Documentation
-
-- Unify the case of “GitHub” ([38a0e96](https://github.com/BITNP/BIThesis/commit/38a0e9676376ff30e36b18e226d73fc16423056f)) by @YDX-2147483647
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Bump version. ([1d98b96](https://github.com/BITNP/BIThesis/commit/1d98b965eb4e1f24fe184f93863d82d6c6c9ccd0)) by @fky2015
-
-### Hotfix
-
-- Use top for pageVerticalAlign ([4fc807e](https://github.com/BITNP/BIThesis/commit/4fc807e541549725eed628d5b32ccebd9606a0e6)) by @fky2015
-
-## [3.6.1] - 2023-10-26
-
-### <!-- 0 -->🚀 Features
-
-- Add a quick-start handbook for graduates. ([55dcc77](https://github.com/BITNP/BIThesis/commit/55dcc77e02be046d75dd96ca7d62f5801e5138db)) by @fky2015
-- Add acknowledgements. ([f8577d1](https://github.com/BITNP/BIThesis/commit/f8577d10fa57f1f51fb9f0d8e7c9e5576bafea31)) by @fky2015
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Typo ([4581850](https://github.com/BITNP/BIThesis/commit/45818508a00ed98d94de4ca6c33e61839911edea)) by @YDX-2147483647
-- Show links. ([470fc4d](https://github.com/BITNP/BIThesis/commit/470fc4df2c9ecd56f68a83d77a505d0853cf9a1e)) by @fky2015
-- Use single quotation marks ([45c97b5](https://github.com/BITNP/BIThesis/commit/45c97b55c5b95e0ea0789c87e94c2763c2045f9e)) by @fky2015
-- Fix display skip and line stretch. ([e08374f](https://github.com/BITNP/BIThesis/commit/e08374f6ade99150d1b52ce521faa9c33ef95831)) by @fky2015
-- Fix a typo. ([4ba5027](https://github.com/BITNP/BIThesis/commit/4ba50278b50c0efb55c25fe52452918394888f1e)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- *(intro)* Update contributions ([94884a3](https://github.com/BITNP/BIThesis/commit/94884a3859e828d36a4810956430b9754df88d22)) by @YDX-2147483647
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Update version. ([d8908bd](https://github.com/BITNP/BIThesis/commit/d8908bdd1f5f09ff9714af8b77b8bb3181854424)) by @fky2015
-
-## New Contributors
-* @lsylusiyao made their first contribution in [#391](https://github.com/BITNP/BIThesis/pull/391)
-## [3.6.0] - 2023-10-01
-
-### <!-- 0 -->🚀 Features
-
+- Add quirks mode. ([d2d1042](https://github.com/BITNP/BIThesis/commit/d2d10428ce6e84f91344ad684f29f4bfef88837e)) by @fky2015
+- Allow to set maxbibnames for publications. ([f627bf2](https://github.com/BITNP/BIThesis/commit/f627bf2f90f5cecb802043eb0408d09b8c2dc1f4)) by @fky2015
+- Align content to top by default. ([1b662f6](https://github.com/BITNP/BIThesis/commit/1b662f6197b8c1f2a25d74b7222fac807359fc4e)) by @fky2015
+- Add options for custom mathFont. ([5006fc6](https://github.com/BITNP/BIThesis/commit/5006fc6d8b661802a76c4457af1bbd5e6626f09b)) by @fky2015
+- Provide a switcher for hidelinks. ([c4f648e](https://github.com/BITNP/BIThesis/commit/c4f648ec9d2f3d90a238efdcfd970b4f6fee454c)) by @fky2015
 - Hide only secret info in cover. ([026c529](https://github.com/BITNP/BIThesis/commit/026c529fc9ecafcf31fe89af07df7d1bd22e8192)) by @fky2015
 - Provide const/style/substituteSymbol option. ([1f40eef](https://github.com/BITNP/BIThesis/commit/1f40eeff976af485e2cc3c19d0f17243c5c1d7c9)) by @fky2015
 - [**breaking**] Add back cover pages in blindPeerReview mode. ([6953c61](https://github.com/BITNP/BIThesis/commit/6953c61b949c92be370b7a620e769f0a674ea29d)) by @fky2015
@@ -313,9 +32,53 @@ Acronyms:
 - Customizable headline ([9de5df6](https://github.com/BITNP/BIThesis/commit/9de5df6253bf4cfa965cfdf21cca97f8dff316a2)) by @YDX-2147483647
 - Support customize cover label. ([f73359f](https://github.com/BITNP/BIThesis/commit/f73359fb0cf2731fd701613f0c1877c9171b4354)) by @fky2015
 - Support hyphenation by default. ([9b849dd](https://github.com/BITNP/BIThesis/commit/9b849dd0132494b92af5d5fca40d89c32186e095)) by @fky2015
+- Add a quick-start handbook for graduates. ([55dcc77](https://github.com/BITNP/BIThesis/commit/55dcc77e02be046d75dd96ca7d62f5801e5138db)) by @fky2015
+- Add acknowledgements. ([f8577d1](https://github.com/BITNP/BIThesis/commit/f8577d10fa57f1f51fb9f0d8e7c9e5576bafea31)) by @fky2015
+- Update make grad. ([5562de4](https://github.com/BITNP/BIThesis/commit/5562de434a516d2ff1553df89fb9247cbc2bd0fb)) by @fky2015
+- *(GT)* Add support for special type. ([76255d8](https://github.com/BITNP/BIThesis/commit/76255d80467081cd952a99439ad1150f392f3ec8)) by @fky2015
+- Allow to use TeX Gyre Termes as the main fonts. ([139eeec](https://github.com/BITNP/BIThesis/commit/139eeec985fe4054b1441075b05295dcf9562c5b)) by @fky2015
+- Feat and fix: separation and blank space ([d08f571](https://github.com/BITNP/BIThesis/commit/d08f57194275221f38ac1d9cf06ccfbcc31e0b90)) by @SinCerely023
+- `misc/tabularRowSeparation`选项调整表格行间距 ([b406d67](https://github.com/BITNP/BIThesis/commit/b406d67dab3aab0507d5c6d3bb4db4a06918243d)) by @YDX-2147483647
+- `misc/algorithmSeparation`选项调整算法与文字之间的距离（仅针对algorithm2e宏包） ([0bffec6](https://github.com/BITNP/BIThesis/commit/0bffec67a3d774fcd19e14b19d0b32f0c75009b0)) by @YDX-2147483647 in [#510](https://github.com/BITNP/BIThesis/pull/510)
+- 支持用`misc/tabularRowSeparation`调节`longtable`宏包 ([ecf5af8](https://github.com/BITNP/BIThesis/commit/ecf5af8506441e57ede5e3e50496079e7a0cf5bc)) by @YDX-2147483647
+- 让longtable与文字的间距与其它浮动体相近，并支持用`misc/floatSeparation`统一调整 ([f5f24e5](https://github.com/BITNP/BIThesis/commit/f5f24e5e0b5582acd32e486537f66cc348ec3db4)) by @YDX-2147483647 in [#513](https://github.com/BITNP/BIThesis/pull/513)
+- 自动设置`hideCoverInPeerReview` ([286fa70](https://github.com/BITNP/BIThesis/commit/286fa7003888dfd65686925fef1d3ee519b714b4)) by @YDX-2147483647
+- 改小数学行距至西文水平 ([bcae36c](https://github.com/BITNP/BIThesis/commit/bcae36c8438cfa2b113e625697305602b5e1c676)) by @YDX-2147483647 in [#537](https://github.com/BITNP/BIThesis/pull/537)
+- [**breaking**] 致谢标题支持用`const/heading/acknowledgements`调整，同时英文模板默认值从单数改为复数 ([e524e6b](https://github.com/BITNP/BIThesis/commit/e524e6bb34afcd039dfe080ca780cd9f426f5ff2)) by @YDX-2147483647
+- 目录标题支持用`TOC/title`调整 ([3f5f938](https://github.com/BITNP/BIThesis/commit/3f5f9387c41b833c674efc9d6ce1c8c5aa9b8e6b)) by @YDX-2147483647
+- *(UTE)* 支持英文模板采用中文封面 ([f14ec56](https://github.com/BITNP/BIThesis/commit/f14ec56b96018f8dea855c6e95ebd0147f24e2a4)) by @YDX-2147483647 in [#539](https://github.com/BITNP/BIThesis/pull/539)
 
 ### <!-- 1 -->🐛 Bug Fixes
 
+- *(docs)* Revise a typo. ([9583710](https://github.com/BITNP/BIThesis/commit/958371012a161e03bce5d48075a10767b8e42233)) by @fky2015
+- *(docs)* Increase Indent. ([25f87cc](https://github.com/BITNP/BIThesis/commit/25f87cc5db42506dae43e66b4abbb99143c074de)) by @note286
+- Chapters now `openany` in twoside mode. ([a2047ff](https://github.com/BITNP/BIThesis/commit/a2047ff0124c3695f6e1745357ed584d45d4f2c5)) by @fky2015
+- Set font by font file names (in stead of font names). ([21826b0](https://github.com/BITNP/BIThesis/commit/21826b01e72bf36c8823295070666efcd5137e72)) by @fky2015
+- *(GT)* Use normal text with the keywords. ([2b5ee4e](https://github.com/BITNP/BIThesis/commit/2b5ee4e80cdcd81c5303278d1e686a372e1b3625)) by @fky2015
+- Add minbibnames to both control name truncate behavior. ([e5aa6af](https://github.com/BITNP/BIThesis/commit/e5aa6af39fc02d8a23183ec4b5a40c320e95d893)) by @fky2015
+- Suppress fontspec warning. ([0844846](https://github.com/BITNP/BIThesis/commit/08448466a4c989981f3c09e9b5f1188e25ad6f85)) by @fky2015
+- Add magic comments to auto-config editors. ([a4a921e](https://github.com/BITNP/BIThesis/commit/a4a921ea6d7a62221bc70e68a98043b46ad7b0b1)) by @fky2015
+- Update the cover of template paper-translation. ([8a688c3](https://github.com/BITNP/BIThesis/commit/8a688c32699e61cb49d3d15e24dfc98d4eae0695)) by @fky2015
+- Add info/class field in the cover of UT. ([e2ded7d](https://github.com/BITNP/BIThesis/commit/e2ded7dd8ee09fe5d7b6f6027e4426c582af7841)) by @fky2015
+- Rename pre-defined theorem as per collision. ([d70fb9b](https://github.com/BITNP/BIThesis/commit/d70fb9b2d23c4ba37c8bdaf25f53a7b2913d09b9)) by @fky2015
+- Fix invalid date fields in bibs. ([e66a264](https://github.com/BITNP/BIThesis/commit/e66a2643fda2a92286806a2abf8c779f935230a7)) by @fky2015
+- Turn on AutoFakeBold and AutoFakeSlant in xeCJK. ([31ea67d](https://github.com/BITNP/BIThesis/commit/31ea67defedc37fa64364a823bcf13fff0995c08)) by @fky2015
+- Add options & fine-tune AutoFakeBold. ([479b9b4](https://github.com/BITNP/BIThesis/commit/479b9b46e476aa8bc09a97d8f13f40c02282634f)) by @fky2015
+- Set gbpunctin to false. ([2505ea9](https://github.com/BITNP/BIThesis/commit/2505ea9d4a392f6f1b2fa96b236678b17428e57e)) by @fky2015
+- Add an english option to enable english mode. ([d8b4a0d](https://github.com/BITNP/BIThesis/commit/d8b4a0d956559175be84d9632d45f308f038dc14)) by @fky2015
+- Make listoffigure & listoftable align with the old template. ([96010ed](https://github.com/BITNP/BIThesis/commit/96010ed17314bdc78c425f868806da68a2b73902)) by @fky2015
+- Fix typo. ([73f417a](https://github.com/BITNP/BIThesis/commit/73f417a278d604c6b364ab6be88bbf694d7dabfc)) by @fky2015
+- Fix logo rendering problem in pdf bookmarks. ([3f3fda2](https://github.com/BITNP/BIThesis/commit/3f3fda24709ca7c7e706cefd8e770f77e04af0cf)) by @fky2015
+- Clear page at start of `\mainmatter`. ([46bb854](https://github.com/BITNP/BIThesis/commit/46bb854ce2b6ac797b5a7024d6ef88cdd5329a10)) by @fky2015
+- Fix the skip of subsubsection. ([2e667a5](https://github.com/BITNP/BIThesis/commit/2e667a5d2df4431b397f2cc4f67765405995d3bd)) by @fky2015
+- Remove empty space when overwriting english bibname. ([713be99](https://github.com/BITNP/BIThesis/commit/713be99fa3fdc0ed798cb26bc662974ddfa1cb7c)) by @fky2015
+- Normalize title and 1.5 linestretch of listofx. ([0188ec1](https://github.com/BITNP/BIThesis/commit/0188ec1bea73daf9502a27912dc7462964c32644)) by @fky2015
+- Improve extra space above/below float env. ([b730439](https://github.com/BITNP/BIThesis/commit/b7304396ebd58e213c34dc26a57d23640424da89)) by @fky2015
+- Fix : Add filed class to paper-translation cover ([5d85905](https://github.com/BITNP/BIThesis/commit/5d859059e3f1aa8108cf8cc5a97887ba9ded18a5)) by @ZoroGH
+- Set zihao to 5 in tabular by default. ([9e58b8b](https://github.com/BITNP/BIThesis/commit/9e58b8beecba14cc8729f9b71bf99389d2b7035a)) by @fky2015
+- Predefine autoref label. ([77bd192](https://github.com/BITNP/BIThesis/commit/77bd1926a302a5db6b17074a605ae19e33a8697d)) by @fky2015
+- Normal text format in subsubsection. ([20f7060](https://github.com/BITNP/BIThesis/commit/20f7060ea78b5ace3d3e04e14c8c17247246dfd8)) by @fky2015
+- The date cannot be in the future. ([a79c093](https://github.com/BITNP/BIThesis/commit/a79c0935f7ca2f4fb113c50cc3b4a0ddb27198f5)) by @fky2015
 - Graduate-thesis indent is larger than normal. ([c2b1d37](https://github.com/BITNP/BIThesis/commit/c2b1d37be0c127ddcc34e76770ffba2be58053fa)) by @fky2015
 - Typo fix. ([6fa12af](https://github.com/BITNP/BIThesis/commit/6fa12af528c124a4c8e51596263d8caf7782f7d0)) by @fky2015
 - Add autoref label for figure(fig),table(tab),euqation(equ) ([1a62cc5](https://github.com/BITNP/BIThesis/commit/1a62cc50e77da71fde234424dac5c3e2ba745de3)) by @ZoroGH
@@ -344,9 +107,43 @@ Acronyms:
 - Note environment does not work as expected ([c703854](https://github.com/BITNP/BIThesis/commit/c7038542c7a2730651feabc745c6f543df505955)) by @YDX-2147483647
 - Update gitignore. ([c85fa6b](https://github.com/BITNP/BIThesis/commit/c85fa6b35b440b7ccf3bfa9732881437f35592a7)) by @fky2015
 - Typo in release-tracker.md ([1250c53](https://github.com/BITNP/BIThesis/commit/1250c5353e1249c1659529f8c51013d94f00a4f0)) by @YDX-2147483647
+- Show links. ([470fc4d](https://github.com/BITNP/BIThesis/commit/470fc4df2c9ecd56f68a83d77a505d0853cf9a1e)) by @fky2015
+- Use single quotation marks ([45c97b5](https://github.com/BITNP/BIThesis/commit/45c97b55c5b95e0ea0789c87e94c2763c2045f9e)) by @fky2015
+- Fix display skip and line stretch. ([e08374f](https://github.com/BITNP/BIThesis/commit/e08374f6ade99150d1b52ce521faa9c33ef95831)) by @fky2015
+- Fix a typo. ([4ba5027](https://github.com/BITNP/BIThesis/commit/4ba50278b50c0efb55c25fe52452918394888f1e)) by @fky2015
+- Update styles of PT ([f32503b](https://github.com/BITNP/BIThesis/commit/f32503b053beec02dc73b5cd971ab3f8807c6b10)) by @YDX-2147483647
+- Remove `, et al.` etc. for `pub.bib` in `blindPeerReview` mode ([d604b0e](https://github.com/BITNP/BIThesis/commit/d604b0ee7285e673fc2cc711cb5b9874d7f4cbbb)) by @YDX-2147483647
+- Try fix github-action-markdown-link-check. ([9b64b96](https://github.com/BITNP/BIThesis/commit/9b64b96d40db2aed0cff6d692e2963c744eb2696)) by @fky2015
+- Zip without parent folder. ([94d14b2](https://github.com/BITNP/BIThesis/commit/94d14b2ea78949a14a2b332225ccaa35b67cd260)) by @fky2015
+- Update according new 2024 Word template. ([0609af7](https://github.com/BITNP/BIThesis/commit/0609af7820b5cbcd2898cd3a3b1e19e27c616350)) by @Manpopp
+- *(GT)* Add a switch to show special type. ([c6cd86e](https://github.com/BITNP/BIThesis/commit/c6cd86eb070df519c538dbcfc2aa51ca5c4488ff)) by @fky2015
+- Standardize algo ref name. ([6d45404](https://github.com/BITNP/BIThesis/commit/6d4540491db5432caf0c1fd319ac5d73c263bb79)) by @fky2015
+- Support the `algorithm2e` package ([0f1b217](https://github.com/BITNP/BIThesis/commit/0f1b2175e47723b01ff092167528d650c59a4d3f)) by @YDX-2147483647 in [#456](https://github.com/BITNP/BIThesis/pull/456)
+- Fix bug ([fb4a42e](https://github.com/BITNP/BIThesis/commit/fb4a42e16a5889c8a54c4648f4d8b66f6f53adf4))
+- 改正`tabularx`环境中的字号 ([9452d43](https://github.com/BITNP/BIThesis/commit/9452d438c9ecc7764397cdd56e48732a04309a10)) by @YDX-2147483647 in [#462](https://github.com/BITNP/BIThesis/pull/462)
+- `\usepackage[chapter]{algorithm}`时开头不应出现“algorithm2ealgochaper”字样 ([c755a92](https://github.com/BITNP/BIThesis/commit/c755a926a191f5f06c90250ab461c61b9cc21bf7)) by @YDX-2147483647 in [#481](https://github.com/BITNP/BIThesis/pull/481)
+- 调整本科模板表格 caption 和表格本体间的距离 ([ad44533](https://github.com/BITNP/BIThesis/commit/ad4453394e96509a3f2635377e9a9b7e1e3ae478)) by @YDX-2147483647 in [#483](https://github.com/BITNP/BIThesis/pull/483)
+- Better bookmark ([bac87b5](https://github.com/BITNP/BIThesis/commit/bac87b5555d902632be7123b8b8e66260abc276a)) by @fky2015 in [#480](https://github.com/BITNP/BIThesis/pull/480)
+- `misc/tabularRowSeparation`不应影响矩阵，并适配`longtable`宏包 ([2f6cf63](https://github.com/BITNP/BIThesis/commit/2f6cf63d054e67bc7a07948a02d2f03f5521a075)) by @YDX-2147483647 in [#499](https://github.com/BITNP/BIThesis/pull/499)
+- 去除longtable表格上框线和caption的多余间距 ([689de6c](https://github.com/BITNP/BIThesis/commit/689de6c057c1caf5a3dc3812a3d623f6772f61cf)) by @YDX-2147483647
+- Remove redundant `currentpdfbookmark` for English bachelor thesis ([95ef418](https://github.com/BITNP/BIThesis/commit/95ef418e8d3452d920c6b3aa3a3479c036803e54)) by @CreeperLKF
+- Toc entry in bookmarks should not point to the tail of toc in Chinese bachelor thesis ([9e1f0e4](https://github.com/BITNP/BIThesis/commit/9e1f0e4a2a16e4b048fcf814d1c49da73d2a9c09)) by @CreeperLKF in [#522](https://github.com/BITNP/BIThesis/pull/522)
+- 统一更新本科若干模板的注释 ([eb03d24](https://github.com/BITNP/BIThesis/commit/eb03d24af28dd86989971a6d3311749bed9d924d)) by @YDX-2147483647
+- *(UTE)* [**breaking**] 本科英文模板前置部分的页码从小写罗马数字改为大写 ([c721bd2](https://github.com/BITNP/BIThesis/commit/c721bd2ff1f2eea43de3f80c7cc87e089e175ec6)) by @YDX-2147483647
+- *(UTE)* 本科英文模板也应支持`const/info/major` ([0ecd8db](https://github.com/BITNP/BIThesis/commit/0ecd8db4cfeca6cfa80fdccff24ce891609a38c8)) by @YDX-2147483647
+- *(UTE)* [**breaking**] 本科英文模板的声明页删除页码，并与中文模板统一格式 ([0ec02cc](https://github.com/BITNP/BIThesis/commit/0ec02cc9b64d18f8577f8b3fb04c0731f6644f73)) by @YDX-2147483647
+- 目录包含「目录」本身时，页码应为目录的首页而非末页 ([6e32fd3](https://github.com/BITNP/BIThesis/commit/6e32fd3d3072ae9a54776e9c3fc2b947c4f6f363)) by @YDX-2147483647
+- *(UTE)* [**breaking**] 本科英文模板的目录默认不再包含目录本身 ([aa2fa1e](https://github.com/BITNP/BIThesis/commit/aa2fa1ed41789173a5d34fc63d9579b92a9864e2)) by @YDX-2147483647
 
 ### <!-- 2 -->🚜 Refactor
 
+- *(UT)* Add a patent entry. ([ed5c552](https://github.com/BITNP/BIThesis/commit/ed5c5527fc04b3a8d85a4602d210cab8145e07ff)) by @fky2015
+- Remove dependency on unicode-math. ([38f52ad](https://github.com/BITNP/BIThesis/commit/38f52adfb5ff1dc77299482ab25312f75023ec4f)) by @fky2015
+- Sunset template undergraduate-proposal-report. ([ea6e218](https://github.com/BITNP/BIThesis/commit/ea6e218a14bdf490d52dd8210b2f04098e966119)) by @fky2015
+- Use hbt to hint float position. ([e6788be](https://github.com/BITNP/BIThesis/commit/e6788be1116b6bc67e321fbb5c811dbb4a728b52)) by @fky2015
+- Reduce ambiguity by remove multi-bibprint demos. ([5130df5](https://github.com/BITNP/BIThesis/commit/5130df55f4012b136fa4c87f1bae159f3900bf23)) by @fky2015
+- Reduce ambiguity by removing multi-bibprint demos. ([42d0b18](https://github.com/BITNP/BIThesis/commit/42d0b183fb1c5ef4707cc323a81e18fa27073b32)) by @fky2015
+- Try fix \MakeOriginality in the plagiarism check. ([7891e26](https://github.com/BITNP/BIThesis/commit/7891e26ae9e292bef1369d727e92e54ed423f6b8)) by @fky2015
 - Remove all source-code docs. ([1be9eb7](https://github.com/BITNP/BIThesis/commit/1be9eb73681da324600196f1bb288fd712e7c9bb)) by @fky2015
 - Remove deprecated code. ([80576ab](https://github.com/BITNP/BIThesis/commit/80576abb526c339f0050918571c8bf2efedd49f7)) by @fky2015
 - Move docs into separate file. ([8ad8bf8](https://github.com/BITNP/BIThesis/commit/8ad8bf8e261e3b03f138acbbdb39adb4a472d789)) by @fky2015
@@ -358,9 +155,37 @@ Acronyms:
 - Reading_report cover info ([ce1905c](https://github.com/BITNP/BIThesis/commit/ce1905cea6fcfa52f787c7ae8d125f5d46c9bf88)) by @YDX-2147483647
 - `style / head`使用`\c_@@_bachelor_thesis_header_clist` ([e420412](https://github.com/BITNP/BIThesis/commit/e420412b9a47738b23f18c43fad58e0d2b4bee8c)) by @YDX-2147483647
 - Remove all templates/*/*.cls. ([e457dae](https://github.com/BITNP/BIThesis/commit/e457daea0f6ede972ec2fa03d0bbe03105c21ef9)) by @fky2015
+- Stretch spaces in the cover of PT ([520e1d1](https://github.com/BITNP/BIThesis/commit/520e1d10df253c26053dcf6390af07d19232b264)) by @YDX-2147483647
+- Colorize hyperlinks ([af43560](https://github.com/BITNP/BIThesis/commit/af4356015ffe396e05397c8169a42b7bb18cd4f9)) by @fky2015
+- Ballot boxes in cover and originality clause in GT ([58f9ee9](https://github.com/BITNP/BIThesis/commit/58f9ee9b5ed5fb1cbaf337adf75752bb3d4a222d)) by @YDX-2147483647
+- 删除表格中无用的`\zihao{5}` ([d2a2943](https://github.com/BITNP/BIThesis/commit/d2a29437e99f964007d89ead11b612ce11a4207e)) by @YDX-2147483647 in [#461](https://github.com/BITNP/BIThesis/pull/461)
+- 只在按章编号时适配algorithm宏包 ([0a4fca2](https://github.com/BITNP/BIThesis/commit/0a4fca2df6a99fb7977b336cf6146af3edb58f6f)) by @YDX-2147483647 in [#469](https://github.com/BITNP/BIThesis/pull/469)
+- 所有本科模板表格示例统一使用三线表 ([7c137df](https://github.com/BITNP/BIThesis/commit/7c137df200b68bcb357582e8c3fd6a1305fa499a)) by @YDX-2147483647
+- 本科模板表格示例`\linespread`换为`misc/tabularRowSeparation` ([17398c5](https://github.com/BITNP/BIThesis/commit/17398c5d2021690b593e1435cb09bc36a3a5cb47)) by @YDX-2147483647
+- 让硕博模板书脊上下居中，并适应长标题，避免与姓名粘连 ([9b315ee](https://github.com/BITNP/BIThesis/commit/9b315eebed82f7ff15e4f9277ab4ab501aa66d2e)) by @YDX-2147483647 in [#511](https://github.com/BITNP/BIThesis/pull/511)
+- 统一使用`\@@_if_thesis_int_type:nTF` ([e43a008](https://github.com/BITNP/BIThesis/commit/e43a008f7387c3e6c89aa71f7147e2bb32e9cba3)) by @YDX-2147483647
+- *(UTE)* [**breaking**] 本科英文模板英文摘要上方的论文标题改为三号（16 bp），与中文模板一致 ([39a7093](https://github.com/BITNP/BIThesis/commit/39a70936a43103375434bc53b5466222941cb54c)) by @YDX-2147483647
+- *(UTE)* [**breaking**] 本科英文模板标题中的中文改为黑体，取消摘要标题加粗，与中文模板一致 ([832c1fb](https://github.com/BITNP/BIThesis/commit/832c1fb6bc03205a958308bb4a206b02cd177cf0)) by @YDX-2147483647
+- *(UTE)* [**breaking**] 本科英文模板的 Arial 换为 Times，与中文模板一致 ([b302128](https://github.com/BITNP/BIThesis/commit/b30212808c81537ae05a6901fa7da6a119666578)) by @YDX-2147483647
+- `cover/dilimiter`选项改为`cover/delimiter` ([49cae71](https://github.com/BITNP/BIThesis/commit/49cae716a771ee100336e625e11bbf8b5dada689)) by @YDX-2147483647 in [#542](https://github.com/BITNP/BIThesis/pull/542)
 
 ### <!-- 3 -->📚 Documentation
 
+- Typo and other small fixes ([26400cb](https://github.com/BITNP/BIThesis/commit/26400cbf9fd9e8e9822dcee08e1ebd4bc5cec944)) by @YDX-2147483647
+- Typo ([95142c4](https://github.com/BITNP/BIThesis/commit/95142c4840b7d44794b013935d645ec4a3ada9fa)) by @YDX-2147483647
+- Add subsection for versioning and updating. ([00a3d7c](https://github.com/BITNP/BIThesis/commit/00a3d7c1231f9197a7a4ae0916c206c6f84297af)) by @fky2015
+- Add a reminder on how to update. ([5347352](https://github.com/BITNP/BIThesis/commit/534735268d11b3ba7997697eead453acb68a65ad)) by @fky2015
+- *(bithesis)* Add docs for quirks mode. ([d90f939](https://github.com/BITNP/BIThesis/commit/d90f939c40e2454af88a0ecc22a93177115e2a31)) by @fky2015
+- Add apecial thanks. ([af0ecca](https://github.com/BITNP/BIThesis/commit/af0ecca7c429b996d7cc06f40b42658495eb9b95)) by @fky2015
+- Add extra mark on doc. ([28c48bc](https://github.com/BITNP/BIThesis/commit/28c48bc8e168ac727e4b677dd23298d9c6ecfd99)) by @fky2015
+- Update progress of authentication. ([b5b7aad](https://github.com/BITNP/BIThesis/commit/b5b7aad2f822df7a67ba5d96ee2def465a62354e)) by @fky2015
+- Add explaination for `english`. ([7f5798b](https://github.com/BITNP/BIThesis/commit/7f5798be965cdbe7d366361706eeba4de67b7244)) by @fky2015
+- Much more eye-catching doc for min/maxbibnames. ([09a8118](https://github.com/BITNP/BIThesis/commit/09a811861d1e2b9de722ba31cde9fd71e9e4a9fc)) by @fky2015
+- Add a note about using CJK Font like MS Word. ([c866616](https://github.com/BITNP/BIThesis/commit/c8666166a60414a4e3bda1a62f95b2bf6b8eb827)) by @fky2015
+- *(intro)* Update readme & introduction. ([3820753](https://github.com/BITNP/BIThesis/commit/3820753783a1d9f1780aa2192179996a10681c55)) by @fky2015
+- Add an explaination about nosep in enumitem. ([ec3760f](https://github.com/BITNP/BIThesis/commit/ec3760f8750beb178b84a1a7cc0811a714ef21ed)) by @fky2015
+- Add doc for misc/autoref & const/autoref. ([ccf14ed](https://github.com/BITNP/BIThesis/commit/ccf14ed2d157eac1c262d70bac9226e779edd420)) by @fky2015
+- Add docs for twoside warning. ([f913aa1](https://github.com/BITNP/BIThesis/commit/f913aa1fa21218b8824af959bf9247954c4b0a2d)) by @fky2015
 - Add docs for SecretInfo feature. ([6f37ad2](https://github.com/BITNP/BIThesis/commit/6f37ad27d2c426ee81e2bc13a84078e7ec8c70e4)) by @fky2015
 - Add the doc for windowsSimSunFakeBold. ([fa1eaca](https://github.com/BITNP/BIThesis/commit/fa1eacab87eb8ac7b5a8fff9aa9b7f962ed2fbae)) by @fky2015
 - Update README for reading-report ([2591bd6](https://github.com/BITNP/BIThesis/commit/2591bd6b220bd5e41a9ad1c19ad8a72c57119257)) by @YDX-2147483647
@@ -373,254 +198,49 @@ Acronyms:
 - 更新教务部网站 ([3dc9f64](https://github.com/BITNP/BIThesis/commit/3dc9f644a16e99436fe4fff53ba41a3fc7dbdef2)) by @YDX-2147483647
 - Replace code of conduct contact ([ea26d66](https://github.com/BITNP/BIThesis/commit/ea26d660beeac04319ebf36b6575d3aeea238cf1)) by @phy25
 - Add a doc entry for hyphen. ([b8eccd2](https://github.com/BITNP/BIThesis/commit/b8eccd2b82cdfb0727f45ff4d6c123d1f2d8d28b)) by @fky2015
+- *(intro)* Update contributions ([94884a3](https://github.com/BITNP/BIThesis/commit/94884a3859e828d36a4810956430b9754df88d22)) by @YDX-2147483647
+- Unify the case of “GitHub” ([38a0e96](https://github.com/BITNP/BIThesis/commit/38a0e9676376ff30e36b18e226d73fc16423056f)) by @YDX-2147483647
+- Hyperref ([7f07e3c](https://github.com/BITNP/BIThesis/commit/7f07e3c7690fe3cf661bc57b470606c7c04df0eb)) by @YDX-2147483647
+- Update DEVELOPMENT.md ([08910a6](https://github.com/BITNP/BIThesis/commit/08910a64d20b0c7d987e838f7e23f9acd6b04849)) by @fky2015
+- *(dev)* Update `wiki/guide/preface.md` in `BIThesis-wiki` ([c4e9098](https://github.com/BITNP/BIThesis/commit/c4e9098f742cbe599e0edd34f59feef0c750d09d)) by @YDX-2147483647
+- Update readme. ([00abcf3](https://github.com/BITNP/BIThesis/commit/00abcf38d5454e5d987eaf58ee020c51258fea0f)) by @fky2015
+- Update info for CTAN ([28b2808](https://github.com/BITNP/BIThesis/commit/28b28080ca4f9235430f4552f40f4658eb14a58a)) by @YDX-2147483647
+- One notice for paper-translation's title ([a95f0cf](https://github.com/BITNP/BIThesis/commit/a95f0cffc0e0e51734f567bce9cef4f6df003b10)) by @CZLeader
+- Font shape warnings ([773c27c](https://github.com/BITNP/BIThesis/commit/773c27c15ad23f0fa2ee2e9d7e7d8392208f48ce)) by @YDX-2147483647
+- 如何将自己电脑上的论文转到 Overleaf ([cf6ddfa](https://github.com/BITNP/BIThesis/commit/cf6ddfa0b86cd48ceb3b9fa04207ccccca76c121)) by @YDX-2147483647
+- Add comments for publications sorting. ([f7e9379](https://github.com/BITNP/BIThesis/commit/f7e9379075dc3ba28ef3c4525dd64cc127e44bdb)) by @fky2015
+- Sort publications ([fd21e5e](https://github.com/BITNP/BIThesis/commit/fd21e5e7c0705cb6c0ce5630c86eaf00d624f83c)) by @YDX-2147483647
+- *(readme)* Docs maintenance. ([28a27cc](https://github.com/BITNP/BIThesis/commit/28a27ccc44a59c5524970890146a173029da989f)) by @fky2015
+- Add more comments. ([e4cc9b9](https://github.com/BITNP/BIThesis/commit/e4cc9b9d0012dc92970aa2df87b74f4e0ab711c1)) by @fky2015
+- Add comment doc for hyphenation. ([f607b35](https://github.com/BITNP/BIThesis/commit/f607b35e75a78ba073273ebd06aa06653c24c5b3)) by @fky2015
+- One doc for both graduate and undergraduate ([55a7cae](https://github.com/BITNP/BIThesis/commit/55a7cae6c007f451b4b3cedd583ae1029b53cf99)) by @fky2015
+- 参考同学建议修改 ([ddd3c91](https://github.com/BITNP/BIThesis/commit/ddd3c91710889611e7dc15709ebc00548cbd0d66)) by @YDX-2147483647
+- Use `\autoref` ([9e76447](https://github.com/BITNP/BIThesis/commit/9e76447a682e303e5c63aee3f4296d630e5d4ef2)) by @YDX-2147483647
+- 改正标点符号 ([1c2e171](https://github.com/BITNP/BIThesis/commit/1c2e1719c68d9a7d99c1ef8039e808a0e0288a87)) by @YDX-2147483647 in [#473](https://github.com/BITNP/BIThesis/pull/473)
+- 强调关键词应在`main.tex`设置 ([7ca7b99](https://github.com/BITNP/BIThesis/commit/7ca7b99ced4b67af6a209d25b6d679119ad048ef)) by @YDX-2147483647 in [#484](https://github.com/BITNP/BIThesis/pull/484)
+- 修正快速使用手册中的`\isGraduateTF` ([2b0d3f3](https://github.com/BITNP/BIThesis/commit/2b0d3f30dce1eab39623173e9d8ec27cf9c9d761)) by @YDX-2147483647
+- 给本科英文模板添加盲审模式注释 ([8673d0a](https://github.com/BITNP/BIThesis/commit/8673d0acb91c9717ee0a7e0d326b266e5a702b90)) by @YDX-2147483647 in [#507](https://github.com/BITNP/BIThesis/pull/507)
+- Add an example for enumerate in publications ([6a2c1c1](https://github.com/BITNP/BIThesis/commit/6a2c1c177ea82ff0ddba92bd6de386a9114dc9b9)) by @fky2015 in [#515](https://github.com/BITNP/BIThesis/pull/515)
+- 更新生僻字使用提示，限制作用范围 ([31abab0](https://github.com/BITNP/BIThesis/commit/31abab00a1ea56620b2931be9edb63125c7f50e4)) by @YDX-2147483647 in [#521](https://github.com/BITNP/BIThesis/pull/521)
+- 在更多地方介绍如何添加水印 ([a9a1aa7](https://github.com/BITNP/BIThesis/commit/a9a1aa7c729c43db3c2e291968a3fcf3f1fc1adc)) by @YDX-2147483647 in [#520](https://github.com/BITNP/BIThesis/pull/520)
+- Add title property in `BITSetup.info` for undergraduate-thesis-en ([3f92180](https://github.com/BITNP/BIThesis/commit/3f9218014421a3278220073bff7ac39d08f333f2)) by @CreeperLKF
+- 提示更改外文翻译模板的页眉，并更新相关注释 ([fe5d1f7](https://github.com/BITNP/BIThesis/commit/fe5d1f7245f2bbace01938eae92fb2f9c7ef5d1f)) by @YDX-2147483647 in [#529](https://github.com/BITNP/BIThesis/pull/529)
+- 更新 Overleaf 情况 ([6a20fff](https://github.com/BITNP/BIThesis/commit/6a20fffb5915694a5671991f21eb4f9d899492aa)) by @YDX-2147483647
+- 更新开发指南 ([2bfe946](https://github.com/BITNP/BIThesis/commit/2bfe94694d846d771dea1806d2868bbaf04c2e4e)) by @YDX-2147483647 in [#530](https://github.com/BITNP/BIThesis/pull/530)
+- 补充介绍`\AuthorEn` ([3439553](https://github.com/BITNP/BIThesis/commit/34395534334fb6c279fca11866568dd8a2a922fc)) by @YDX-2147483647 in [#535](https://github.com/BITNP/BIThesis/pull/535)
+- *(handbook)* 生成盲评版论文 ([24a7e5d](https://github.com/BITNP/BIThesis/commit/24a7e5dd8bdc47cb8ebc2858733f99161034bfa7)) by @YDX-2147483647 in [#534](https://github.com/BITNP/BIThesis/pull/534)
+- *(UTE)* 可以调换中英文摘要顺序 ([2625d43](https://github.com/BITNP/BIThesis/commit/2625d436af40d36d29b054082cd61e187969883b)) by @YDX-2147483647
+- `appendices/title`等选项 ([7b89ffa](https://github.com/BITNP/BIThesis/commit/7b89ffacad6c07efdf757101394258f8098549ba)) by @YDX-2147483647
+- *(UTE)* 更新英文模板示例 ([9104d6a](https://github.com/BITNP/BIThesis/commit/9104d6a0a7ec958124f6f7808aa583068d619c91)) by @YDX-2147483647 in [#541](https://github.com/BITNP/BIThesis/pull/541)
 
 ### <!-- 5 -->🎨 Styling
 
 - Remove a trailing space ([7f73122](https://github.com/BITNP/BIThesis/commit/7f73122a69a6b05dc07f88d787dce438a61de8df)) by @YDX-2147483647
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Ignore .DS_Store. ([7f78856](https://github.com/BITNP/BIThesis/commit/7f78856d8160bc6a53ddab54ba2846b80e7d36d0)) by @fky2015
-- Update docs. ([e4558dc](https://github.com/BITNP/BIThesis/commit/e4558dcc5977b8af72034f9bfcda1038a737e6ab)) by @fky2015
-- Add reading-report ([492eecd](https://github.com/BITNP/BIThesis/commit/492eecdc07e50a47479b168dadc1e07aaa255d7d)) by @YDX-2147483647
-- Add markdown link check. ([e400fac](https://github.com/BITNP/BIThesis/commit/e400facec5bb3ca978c87fae2c39cabb0ccb434c)) by @fky2015
-- Remove templates/*cls. ([ac5463c](https://github.com/BITNP/BIThesis/commit/ac5463ceb2fa734ba27ccc66b82f6ec4839069ad)) by @fky2015
-- Remove ensure_updated_cls. ([1cab540](https://github.com/BITNP/BIThesis/commit/1cab540c184ec9fadc69f7de6125a0c2bde75263)) by @fky2015
-- Bump version to 3.6.0 ([356d4c7](https://github.com/BITNP/BIThesis/commit/356d4c716d17c42725c64ff9021e86e45ee336d5)) by @fky2015
-
-### <!-- 9 -->◀️ Revert
-
-- Revert it back ([7bc43c1](https://github.com/BITNP/BIThesis/commit/7bc43c12e3b6eed1e05831833301566310c05ceb)) by @Zeqiang-Lai
-
-### Build
-
-- PowerShell version of regression-test ([d8f44bf](https://github.com/BITNP/BIThesis/commit/d8f44bf24c6829d4e75fa25a9827680d78da4bb4)) by @YDX-2147483647
-
-## New Contributors
-* @spaceskynet made their first contribution
-* @Zeqiang-Lai made their first contribution
-## [3.5.4] - 2023-04-30
-
-### <!-- 0 -->🚀 Features
-
-- Provide a switcher for hidelinks. ([c4f648e](https://github.com/BITNP/BIThesis/commit/c4f648ec9d2f3d90a238efdcfd970b4f6fee454c)) by @fky2015
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Normal text format in subsubsection. ([20f7060](https://github.com/BITNP/BIThesis/commit/20f7060ea78b5ace3d3e04e14c8c17247246dfd8)) by @fky2015
-- The date cannot be in the future. ([a79c093](https://github.com/BITNP/BIThesis/commit/a79c0935f7ca2f4fb113c50cc3b4a0ddb27198f5)) by @fky2015
-
-### <!-- 2 -->🚜 Refactor
-
-- Try fix \MakeOriginality in the plagiarism check. ([7891e26](https://github.com/BITNP/BIThesis/commit/7891e26ae9e292bef1369d727e92e54ed423f6b8)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- Add docs for twoside warning. ([f913aa1](https://github.com/BITNP/BIThesis/commit/f913aa1fa21218b8824af959bf9247954c4b0a2d)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Update version to v3.5.4. ([b19599b](https://github.com/BITNP/BIThesis/commit/b19599bcd5b0917120aaf05fc8961f49f54700ef)) by @fky2015
-
-## [3.5.3] - 2023-04-23
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Set zihao to 5 in tabular by default. ([9e58b8b](https://github.com/BITNP/BIThesis/commit/9e58b8beecba14cc8729f9b71bf99389d2b7035a)) by @fky2015
-- Predefine autoref label. ([77bd192](https://github.com/BITNP/BIThesis/commit/77bd1926a302a5db6b17074a605ae19e33a8697d)) by @fky2015
-
-### <!-- 2 -->🚜 Refactor
-
-- Use hbt to hint float position. ([e6788be](https://github.com/BITNP/BIThesis/commit/e6788be1116b6bc67e321fbb5c811dbb4a728b52)) by @fky2015
-- Reduce ambiguity by remove multi-bibprint demos. ([5130df5](https://github.com/BITNP/BIThesis/commit/5130df55f4012b136fa4c87f1bae159f3900bf23)) by @fky2015
-- Reduce ambiguity by removing multi-bibprint demos. ([42d0b18](https://github.com/BITNP/BIThesis/commit/42d0b183fb1c5ef4707cc323a81e18fa27073b32)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- Add an explaination about nosep in enumitem. ([ec3760f](https://github.com/BITNP/BIThesis/commit/ec3760f8750beb178b84a1a7cc0811a714ef21ed)) by @fky2015
-- Add doc for misc/autoref & const/autoref. ([ccf14ed](https://github.com/BITNP/BIThesis/commit/ccf14ed2d157eac1c262d70bac9226e779edd420)) by @fky2015
+- Trim trailing whitespace and make sure files end in a newline and only a newline ([5e439b0](https://github.com/BITNP/BIThesis/commit/5e439b01a9495768b3245a4cb32d18fe36620221)) by @YDX-2147483647 in [#538](https://github.com/BITNP/BIThesis/pull/538)
 
 ### <!-- 6 -->🧪 Testing
 
 - Add tests for autorefs. ([837d3d3](https://github.com/BITNP/BIThesis/commit/837d3d3b4f51f527b7afa862cc22dc1edc5202a7)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Update to v3.5.3. ([346f11d](https://github.com/BITNP/BIThesis/commit/346f11da510b4c4d7ef10e4cb502f97aaf5865ea)) by @fky2015
-
-## [3.5.2] - 2023-04-14
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Fix the skip of subsubsection. ([2e667a5](https://github.com/BITNP/BIThesis/commit/2e667a5d2df4431b397f2cc4f67765405995d3bd)) by @fky2015
-- Remove empty space when overwriting english bibname. ([713be99](https://github.com/BITNP/BIThesis/commit/713be99fa3fdc0ed798cb26bc662974ddfa1cb7c)) by @fky2015
-- Normalize title and 1.5 linestretch of listofx. ([0188ec1](https://github.com/BITNP/BIThesis/commit/0188ec1bea73daf9502a27912dc7462964c32644)) by @fky2015
-- Improve extra space above/below float env. ([b730439](https://github.com/BITNP/BIThesis/commit/b7304396ebd58e213c34dc26a57d23640424da89)) by @fky2015
-- Fix : Add filed class to paper-translation cover ([5d85905](https://github.com/BITNP/BIThesis/commit/5d859059e3f1aa8108cf8cc5a97887ba9ded18a5)) by @ZoroGH
-
-### <!-- 3 -->📚 Documentation
-
-- *(intro)* Update readme & introduction. ([3820753](https://github.com/BITNP/BIThesis/commit/3820753783a1d9f1780aa2192179996a10681c55)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Use true tilde. ([5a0b721](https://github.com/BITNP/BIThesis/commit/5a0b7212531aac81a00c47d55e474c8168d05f7a)) by @fky2015
-- Update to v3.5.2 ([9345efc](https://github.com/BITNP/BIThesis/commit/9345efcf187c3d740129e97876502b3eba2791df)) by @fky2015
-
-### Bugfix
-
-- 本科毕设封面添加班号信息 ([e3ed05f](https://github.com/BITNP/BIThesis/commit/e3ed05f639cd1c87213e3a88a615f9a75e81842b)) by @ZoroGH
-
-## [3.5.1] - 2023-04-07
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Clear page at start of `\mainmatter`. ([46bb854](https://github.com/BITNP/BIThesis/commit/46bb854ce2b6ac797b5a7024d6ef88cdd5329a10)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Update version to v3.5.1. ([b56efcb](https://github.com/BITNP/BIThesis/commit/b56efcb95b2ded6f5b5b233744b6d1c85f85c3e7)) by @fky2015
-
-## [3.5.0] - 2023-04-04
-
-### <!-- 0 -->🚀 Features
-
-- Align content to top by default. ([1b662f6](https://github.com/BITNP/BIThesis/commit/1b662f6197b8c1f2a25d74b7222fac807359fc4e)) by @fky2015
-- Add options for custom mathFont. ([5006fc6](https://github.com/BITNP/BIThesis/commit/5006fc6d8b661802a76c4457af1bbd5e6626f09b)) by @fky2015
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Make listoffigure & listoftable align with the old template. ([96010ed](https://github.com/BITNP/BIThesis/commit/96010ed17314bdc78c425f868806da68a2b73902)) by @fky2015
-- Fix typo. ([73f417a](https://github.com/BITNP/BIThesis/commit/73f417a278d604c6b364ab6be88bbf694d7dabfc)) by @fky2015
-- Fix logo rendering problem in pdf bookmarks. ([3f3fda2](https://github.com/BITNP/BIThesis/commit/3f3fda24709ca7c7e706cefd8e770f77e04af0cf)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- Add explaination for `english`. ([7f5798b](https://github.com/BITNP/BIThesis/commit/7f5798be965cdbe7d366361706eeba4de67b7244)) by @fky2015
-- Much more eye-catching doc for min/maxbibnames. ([09a8118](https://github.com/BITNP/BIThesis/commit/09a811861d1e2b9de722ba31cde9fd71e9e4a9fc)) by @fky2015
-- Add a note about using CJK Font like MS Word. ([c866616](https://github.com/BITNP/BIThesis/commit/c8666166a60414a4e3bda1a62f95b2bf6b8eb827)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Update to v3.5.0 ([08535d4](https://github.com/BITNP/BIThesis/commit/08535d44be9fa5e88eaf64162dfe6256636889c5)) by @fky2015
-
-## [3.4.3] - 2023-03-16
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Fix invalid date fields in bibs. ([e66a264](https://github.com/BITNP/BIThesis/commit/e66a2643fda2a92286806a2abf8c779f935230a7)) by @fky2015
-- Turn on AutoFakeBold and AutoFakeSlant in xeCJK. ([31ea67d](https://github.com/BITNP/BIThesis/commit/31ea67defedc37fa64364a823bcf13fff0995c08)) by @fky2015
-- Add options & fine-tune AutoFakeBold. ([479b9b4](https://github.com/BITNP/BIThesis/commit/479b9b46e476aa8bc09a97d8f13f40c02282634f)) by @fky2015
-- Set gbpunctin to false. ([2505ea9](https://github.com/BITNP/BIThesis/commit/2505ea9d4a392f6f1b2fa96b236678b17428e57e)) by @fky2015
-- Add an english option to enable english mode. ([d8b4a0d](https://github.com/BITNP/BIThesis/commit/d8b4a0d956559175be84d9632d45f308f038dc14)) by @fky2015
-
-### <!-- 2 -->🚜 Refactor
-
-- Sunset template undergraduate-proposal-report. ([ea6e218](https://github.com/BITNP/BIThesis/commit/ea6e218a14bdf490d52dd8210b2f04098e966119)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- Update progress of authentication. ([b5b7aad](https://github.com/BITNP/BIThesis/commit/b5b7aad2f822df7a67ba5d96ee2def465a62354e)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Update to v3.4.3 ([9951571](https://github.com/BITNP/BIThesis/commit/9951571f400d311327638c00e517c2576431a14c)) by @fky2015
-
-## [3.4.2] - 2023-03-05
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Update the cover of template paper-translation. ([8a688c3](https://github.com/BITNP/BIThesis/commit/8a688c32699e61cb49d3d15e24dfc98d4eae0695)) by @fky2015
-- Add info/class field in the cover of UT. ([e2ded7d](https://github.com/BITNP/BIThesis/commit/e2ded7dd8ee09fe5d7b6f6027e4426c582af7841)) by @fky2015
-- Rename pre-defined theorem as per collision. ([d70fb9b](https://github.com/BITNP/BIThesis/commit/d70fb9b2d23c4ba37c8bdaf25f53a7b2913d09b9)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Update to v3.4.2. ([b5045dd](https://github.com/BITNP/BIThesis/commit/b5045dd8bf50680c8cc13ea08363972c55288d9e)) by @fky2015
-
-## [3.4.1] - 2023-03-02
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Add magic comments to auto-config editors. ([a4a921e](https://github.com/BITNP/BIThesis/commit/a4a921ea6d7a62221bc70e68a98043b46ad7b0b1)) by @fky2015
-
-## [3.4.0] - 2023-02-20
-
-### <!-- 0 -->🚀 Features
-
-- Allow to set maxbibnames for publications. ([f627bf2](https://github.com/BITNP/BIThesis/commit/f627bf2f90f5cecb802043eb0408d09b8c2dc1f4)) by @fky2015
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- Add minbibnames to both control name truncate behavior. ([e5aa6af](https://github.com/BITNP/BIThesis/commit/e5aa6af39fc02d8a23183ec4b5a40c320e95d893)) by @fky2015
-- Suppress fontspec warning. ([0844846](https://github.com/BITNP/BIThesis/commit/08448466a4c989981f3c09e9b5f1188e25ad6f85)) by @fky2015
-
-### <!-- 2 -->🚜 Refactor
-
-- Remove dependency on unicode-math. ([38f52ad](https://github.com/BITNP/BIThesis/commit/38f52adfb5ff1dc77299482ab25312f75023ec4f)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Add a repobeats service. ([ae84183](https://github.com/BITNP/BIThesis/commit/ae8418376142290671d1dd4d7f814e2ed2ba4314)) by @fky2015
-- Update version to v3.4.0. ([a1ae48e](https://github.com/BITNP/BIThesis/commit/a1ae48e459636d9cf4448924663b02cea54fd714)) by @fky2015
-
-## [3.3.2] - 2023-02-17
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- *(GT)* Use normal text with the keywords. ([2b5ee4e](https://github.com/BITNP/BIThesis/commit/2b5ee4e80cdcd81c5303278d1e686a372e1b3625)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- Add extra mark on doc. ([28c48bc](https://github.com/BITNP/BIThesis/commit/28c48bc8e168ac727e4b677dd23298d9c6ecfd99)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Bump version to v3.3.2. ([5714bda](https://github.com/BITNP/BIThesis/commit/5714bda579d24f078e9c742fec8c5545596974e2)) by @fky2015
-
-## [3.3.1] - 2023-02-11
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- *(docs)* Increase Indent. ([25f87cc](https://github.com/BITNP/BIThesis/commit/25f87cc5db42506dae43e66b4abbb99143c074de)) by @note286
-- Chapters now `openany` in twoside mode. ([a2047ff](https://github.com/BITNP/BIThesis/commit/a2047ff0124c3695f6e1745357ed584d45d4f2c5)) by @fky2015
-- Set font by font file names (in stead of font names). ([21826b0](https://github.com/BITNP/BIThesis/commit/21826b01e72bf36c8823295070666efcd5137e72)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- Add apecial thanks. ([af0ecca](https://github.com/BITNP/BIThesis/commit/af0ecca7c429b996d7cc06f40b42658495eb9b95)) by @fky2015
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Bump version to v3.3.1 ([2f4aa62](https://github.com/BITNP/BIThesis/commit/2f4aa62f8efcfe9c46b5b2e78d1cbed3a5fbc11d)) by @fky2015
-
-### Hotfix
-
-- *(bithesis)* \clearpage after remove \cleardoublepage. ([ea1a689](https://github.com/BITNP/BIThesis/commit/ea1a689637a7ff7ae5850965245ed24df0e1854e)) by @fky2015
-
-## New Contributors
-* @note286 made their first contribution
-## [3.3.0] - 2023-02-03
-
-### <!-- 0 -->🚀 Features
-
-- Add quirks mode. ([d2d1042](https://github.com/BITNP/BIThesis/commit/d2d10428ce6e84f91344ad684f29f4bfef88837e)) by @fky2015
-
-### <!-- 1 -->🐛 Bug Fixes
-
-- *(docs)* Revise a typo. ([9583710](https://github.com/BITNP/BIThesis/commit/958371012a161e03bce5d48075a10767b8e42233)) by @fky2015
-
-### <!-- 2 -->🚜 Refactor
-
-- *(UT)* Add a patent entry. ([ed5c552](https://github.com/BITNP/BIThesis/commit/ed5c5527fc04b3a8d85a4602d210cab8145e07ff)) by @fky2015
-
-### <!-- 3 -->📚 Documentation
-
-- Typo and other small fixes ([26400cb](https://github.com/BITNP/BIThesis/commit/26400cbf9fd9e8e9822dcee08e1ebd4bc5cec944)) by @YDX-2147483647
-- Typo ([95142c4](https://github.com/BITNP/BIThesis/commit/95142c4840b7d44794b013935d645ec4a3ada9fa)) by @YDX-2147483647
-- Add subsection for versioning and updating. ([00a3d7c](https://github.com/BITNP/BIThesis/commit/00a3d7c1231f9197a7a4ae0916c206c6f84297af)) by @fky2015
-- Add a reminder on how to update. ([5347352](https://github.com/BITNP/BIThesis/commit/534735268d11b3ba7997697eead453acb68a65ad)) by @fky2015
-- *(bithesis)* Add docs for quirks mode. ([d90f939](https://github.com/BITNP/BIThesis/commit/d90f939c40e2454af88a0ecc22a93177115e2a31)) by @fky2015
 
 ### <!-- 7 -->⚙️ Miscellaneous Tasks
 
@@ -629,11 +249,97 @@ Acronyms:
 - Update copyright. ([a55e45a](https://github.com/BITNP/BIThesis/commit/a55e45a90449fda7dec74750a2164d4471555ada)) by @fky2015
 - *(typos)* Make linter happy. ([e5690e6](https://github.com/BITNP/BIThesis/commit/e5690e658cc85e9a546d5480da2cbbd0c7085705)) by @fky2015
 - Bump version to v3.3.0. ([9ebe371](https://github.com/BITNP/BIThesis/commit/9ebe3711aab8759c006efa770510c9516c8e73a3)) by @fky2015
+- Bump version to v3.3.1 ([2f4aa62](https://github.com/BITNP/BIThesis/commit/2f4aa62f8efcfe9c46b5b2e78d1cbed3a5fbc11d)) by @fky2015
+- Bump version to v3.3.2. ([5714bda](https://github.com/BITNP/BIThesis/commit/5714bda579d24f078e9c742fec8c5545596974e2)) by @fky2015
+- Add a repobeats service. ([ae84183](https://github.com/BITNP/BIThesis/commit/ae8418376142290671d1dd4d7f814e2ed2ba4314)) by @fky2015
+- Update version to v3.4.0. ([a1ae48e](https://github.com/BITNP/BIThesis/commit/a1ae48e459636d9cf4448924663b02cea54fd714)) by @fky2015
+- Update to v3.4.2. ([b5045dd](https://github.com/BITNP/BIThesis/commit/b5045dd8bf50680c8cc13ea08363972c55288d9e)) by @fky2015
+- Update to v3.4.3 ([9951571](https://github.com/BITNP/BIThesis/commit/9951571f400d311327638c00e517c2576431a14c)) by @fky2015
+- Update to v3.5.0 ([08535d4](https://github.com/BITNP/BIThesis/commit/08535d44be9fa5e88eaf64162dfe6256636889c5)) by @fky2015
+- Update version to v3.5.1. ([b56efcb](https://github.com/BITNP/BIThesis/commit/b56efcb95b2ded6f5b5b233744b6d1c85f85c3e7)) by @fky2015
+- Use true tilde. ([5a0b721](https://github.com/BITNP/BIThesis/commit/5a0b7212531aac81a00c47d55e474c8168d05f7a)) by @fky2015
+- Update to v3.5.2 ([9345efc](https://github.com/BITNP/BIThesis/commit/9345efcf187c3d740129e97876502b3eba2791df)) by @fky2015
+- Update to v3.5.3. ([346f11d](https://github.com/BITNP/BIThesis/commit/346f11da510b4c4d7ef10e4cb502f97aaf5865ea)) by @fky2015
+- Update version to v3.5.4. ([b19599b](https://github.com/BITNP/BIThesis/commit/b19599bcd5b0917120aaf05fc8961f49f54700ef)) by @fky2015
+- Ignore .DS_Store. ([7f78856](https://github.com/BITNP/BIThesis/commit/7f78856d8160bc6a53ddab54ba2846b80e7d36d0)) by @fky2015
+- Update docs. ([e4558dc](https://github.com/BITNP/BIThesis/commit/e4558dcc5977b8af72034f9bfcda1038a737e6ab)) by @fky2015
+- Add reading-report ([492eecd](https://github.com/BITNP/BIThesis/commit/492eecdc07e50a47479b168dadc1e07aaa255d7d)) by @YDX-2147483647
+- Add markdown link check. ([e400fac](https://github.com/BITNP/BIThesis/commit/e400facec5bb3ca978c87fae2c39cabb0ccb434c)) by @fky2015
+- Remove templates/*cls. ([ac5463c](https://github.com/BITNP/BIThesis/commit/ac5463ceb2fa734ba27ccc66b82f6ec4839069ad)) by @fky2015
+- Remove ensure_updated_cls. ([1cab540](https://github.com/BITNP/BIThesis/commit/1cab540c184ec9fadc69f7de6125a0c2bde75263)) by @fky2015
+- Bump version to 3.6.0 ([356d4c7](https://github.com/BITNP/BIThesis/commit/356d4c716d17c42725c64ff9021e86e45ee336d5)) by @fky2015
+- Update version. ([d8908bd](https://github.com/BITNP/BIThesis/commit/d8908bdd1f5f09ff9714af8b77b8bb3181854424)) by @fky2015
+- Bump version. ([1d98b96](https://github.com/BITNP/BIThesis/commit/1d98b965eb4e1f24fe184f93863d82d6c6c9ccd0)) by @fky2015
+- Bump version to v3.6.3 ([24ad394](https://github.com/BITNP/BIThesis/commit/24ad394fc5adeb7b50cd6fa2b736433f6b3920d0)) by @YDX-2147483647
+- Remove `make check-cls` ([8a0d5d1](https://github.com/BITNP/BIThesis/commit/8a0d5d19df58bc2c2b2834cbfac1b50bbb2b2cda)) by @YDX-2147483647
+- Update GitHub Actions' version ([eca4d67](https://github.com/BITNP/BIThesis/commit/eca4d678b3569d4200d81d36a775503e5699c637)) by @fky2015
+- Bump version to 3.7.0 ([9384774](https://github.com/BITNP/BIThesis/commit/93847740d897518dbc0ffa9ca00ba4c3282cfefe)) by @fky2015
+- Automatically generate changelog. ([c664487](https://github.com/BITNP/BIThesis/commit/c6644876d50707677e16c788410c939499956d09)) by @fky2015
+- Fix broken cliff. ([d306cb4](https://github.com/BITNP/BIThesis/commit/d306cb4fd9ac42c1f58cb424495a5ea37df46161)) by @fky2015
+- No need to modify CHANGELOG manually anymore. ([598ff77](https://github.com/BITNP/BIThesis/commit/598ff7704112938efc2a1a83c0a1401e8f22d117)) by @fky2015
+- Upload to CTAN ([5f52d4f](https://github.com/BITNP/BIThesis/commit/5f52d4f79921a41573f691924bdbd9ea340b2c9f)) by @YDX-2147483647
+- Remove redundant “Generate changelog” ([54bbe79](https://github.com/BITNP/BIThesis/commit/54bbe79e3dbcb22d2f94ae2123a4ba255ff2c2e5)) by @YDX-2147483647
+- Bump version to 3.7.1 ([96965fd](https://github.com/BITNP/BIThesis/commit/96965fd9ab1cbae85f716ad039869776a69a8407)) by @fky2015
+- *(typos)* Update for typos v1.20 ([2d300f1](https://github.com/BITNP/BIThesis/commit/2d300f100ad90b81fbc4a1b2bd291d69d7a84dc2)) by @YDX-2147483647
+- Add changelog generation action. ([53e9cee](https://github.com/BITNP/BIThesis/commit/53e9cee04d8d4a977fb0936709868e4e31ec3828)) by @fky2015
+- Simplify GitHub issue templates. ([8775738](https://github.com/BITNP/BIThesis/commit/8775738a03e4cc8484a8c1c96995729cb37db1a4)) by @fky2015
+- Update to v3.7.2 ([755f674](https://github.com/BITNP/BIThesis/commit/755f674695ba95a51e0a0e2105e14ccf6f5dbbd3)) by @fky2015
+- Improve usability for publications. ([938b215](https://github.com/BITNP/BIThesis/commit/938b2157dcc36dd73fb026f43d4c679405a5c5e4)) by @fky2015
+- Update version to 3.7.3 ([7760e33](https://github.com/BITNP/BIThesis/commit/7760e33d1726161d03d5a9de468f786a0e69b0b0)) by @fky2015
+- Add star history in readme ([97195c0](https://github.com/BITNP/BIThesis/commit/97195c0576005a3bb19075256ab84d9a3b75df05)) by @fky2015 in [#458](https://github.com/BITNP/BIThesis/pull/458)
+- Update version to 3.7.4 ([8f6f509](https://github.com/BITNP/BIThesis/commit/8f6f5095708170362a14f3017dc7702b2b5dd9f5)) by @fky2015 in [#460](https://github.com/BITNP/BIThesis/pull/460)
+- Make the skips for math env bigger. ([39c27df](https://github.com/BITNP/BIThesis/commit/39c27dfe8e79b53bddddb1332e5e6ca48bade200)) by @fky2015 in [#472](https://github.com/BITNP/BIThesis/pull/472)
+- Update version to 3.7.5 ([3fd7b22](https://github.com/BITNP/BIThesis/commit/3fd7b2269e8840737d4f82fd1e3a981104b584dc)) by @fky2015
+- Update version to 3.7.6 ([c5a624f](https://github.com/BITNP/BIThesis/commit/c5a624f3f8ecf453030c5437dcd1f47806b6129b)) by @fky2015
+- Fix changelog ([d634c1b](https://github.com/BITNP/BIThesis/commit/d634c1bfb6655a8ce430555a1f3c4ca02a2d83bc)) by @YDX-2147483647 in [#485](https://github.com/BITNP/BIThesis/pull/485)
+- Update to v3.7.7 ([ee6a901](https://github.com/BITNP/BIThesis/commit/ee6a901d00ebcaa30567ab1ee9490b9d1217875f)) by @fky2015
+- Create dependabot.yml ([1cc4c09](https://github.com/BITNP/BIThesis/commit/1cc4c09c8aa9d13310527e6727e30c2042ec20fd)) by @YDX-2147483647 in [#488](https://github.com/BITNP/BIThesis/pull/488)
+- 发布快速使用手册 ([2f6bf7e](https://github.com/BITNP/BIThesis/commit/2f6bf7eb7cc93cc45572fbd84c31260341e18861)) by @YDX-2147483647 in [#493](https://github.com/BITNP/BIThesis/pull/493)
+- Remove redundant code for consistency with official examples ([cf34b13](https://github.com/BITNP/BIThesis/commit/cf34b13442542834a3e24ce36a235a00a39383fa)) by @fky2015 in [#514](https://github.com/BITNP/BIThesis/pull/514)
+- 在发行说明中提示快速使用指南等 ([9ac93e5](https://github.com/BITNP/BIThesis/commit/9ac93e52d934d92a47634e3ae8f32e41bb2a5d1d)) by @YDX-2147483647 in [#516](https://github.com/BITNP/BIThesis/pull/516)
+- Update version to 3.7.8 ([7a20e31](https://github.com/BITNP/BIThesis/commit/7a20e31d257596ae83f67983e7760da1c57c652e)) by @fky2015
+- 编译快速使用手册 ([ef0e51e](https://github.com/BITNP/BIThesis/commit/ef0e51ef06765a459eb8e23d6e4a90a6f6e6d28f)) by @YDX-2147483647 in [#519](https://github.com/BITNP/BIThesis/pull/519)
+- Update bithesis.dtx version to 3.7.9 ([6d56033](https://github.com/BITNP/BIThesis/commit/6d56033f5cdcab31c89542959854e8ede368b9c7)) by @fky2015
+- Fix typo ([f950040](https://github.com/BITNP/BIThesis/commit/f95004032360d2d0a2707fea300070e9007ed3e3)) by @fky2015
+- 更新开发文档、脚本等资料 ([1f0f4f7](https://github.com/BITNP/BIThesis/commit/1f0f4f73b1d51ceec18bfa85856d8b1a4ed5d582)) by @YDX-2147483647
+- DocStrip 统一用`@@`而非`_bithesis_` ([ac3b973](https://github.com/BITNP/BIThesis/commit/ac3b973e861d65380f517f88ae4aeb3a4883bf83)) by @YDX-2147483647
+
+### <!-- 9 -->◀️ Revert
+
+- Revert it back ([7bc43c1](https://github.com/BITNP/BIThesis/commit/7bc43c12e3b6eed1e05831833301566310c05ceb)) by @Zeqiang-Lai
+
+### Bugfix
+
+- 本科毕设封面添加班号信息 ([e3ed05f](https://github.com/BITNP/BIThesis/commit/e3ed05f639cd1c87213e3a88a615f9a75e81842b)) by @ZoroGH
+
+### Build
+
+- PowerShell version of regression-test ([d8f44bf](https://github.com/BITNP/BIThesis/commit/d8f44bf24c6829d4e75fa25a9827680d78da4bb4)) by @YDX-2147483647
+- Improve build script. ([1a97889](https://github.com/BITNP/BIThesis/commit/1a978891dbe788cb60d1c9852188112cfb39406d)) by @fky2015
+- *(deps)* Bump actions/upload-artifact from 3 to 4 ([9a446f1](https://github.com/BITNP/BIThesis/commit/9a446f1fe8c509c2b98788ef4c184d3d90e8d767)) by @dependabot[bot] in [#489](https://github.com/BITNP/BIThesis/pull/489)
+- *(deps)* Bump actions/download-artifact from 3 to 4 ([4d6c99d](https://github.com/BITNP/BIThesis/commit/4d6c99d2b0ea874ca1eaa4cda0e345151ea0de65)) by @dependabot[bot] in [#490](https://github.com/BITNP/BIThesis/pull/490)
+- *(deps)* Bump xu-cheng/texlive-action from 1 to 2 ([648c5b8](https://github.com/BITNP/BIThesis/commit/648c5b86cc793399f5201a21f231a44aab9adb91)) by @dependabot[bot] in [#492](https://github.com/BITNP/BIThesis/pull/492)
+
+### Hotfix
+
+- *(bithesis)* \clearpage after remove \cleardoublepage. ([ea1a689](https://github.com/BITNP/BIThesis/commit/ea1a689637a7ff7ae5850965245ed24df0e1854e)) by @fky2015
+- Use top for pageVerticalAlign ([4fc807e](https://github.com/BITNP/BIThesis/commit/4fc807e541549725eed628d5b32ccebd9606a0e6)) by @fky2015
 
 ### Rechore
 
 - Make sure all templates are updated. ([0f109e9](https://github.com/BITNP/BIThesis/commit/0f109e970c3d6fe82254d44b733e38505116a34b)) by @fky2015
 
+## New Contributors
+* @CreeperLKF made their first contribution in [#522](https://github.com/BITNP/BIThesis/pull/522)
+* @ made their first contribution
+* @SinCerely023 made their first contribution
+* @CZLeader made their first contribution
+* @Manpopp made their first contribution
+* @lsylusiyao made their first contribution in [#391](https://github.com/BITNP/BIThesis/pull/391)
+* @spaceskynet made their first contribution
+* @Zeqiang-Lai made their first contribution
+* @ZoroGH made their first contribution
+* @note286 made their first contribution
 ## [3.2.3] - 2022-12-30
 
 ### <!-- 1 -->🐛 Bug Fixes
