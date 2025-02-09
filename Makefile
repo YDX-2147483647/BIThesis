@@ -7,8 +7,8 @@ SHELL = /bin/bash
 
 PACKAGE = bithesis
 
-SOURCES = $(PACKAGE).ins $(PACKAGE).dtx
-CLSFILE = dtx-style.sty bitreport.cls bithesis.cls bitbeamer.cls
+SOURCES = src/$(PACKAGE).ins src/$(PACKAGE).dtx
+CLSFILE = src/dtx-style.sty src/bitreport.cls src/bithesis.cls src/bitbeamer.cls
 
 LATEXMK = latexmk
 
@@ -26,10 +26,10 @@ endif
 .PHONY: all FORCE_MAKE
 
 $(PACKAGE).pdf: cls FORCE_MAKE
-	@$(LATEXMK) -xelatex $(PACKAGE).dtx
+	@cd src && $(LATEXMK) -xelatex $(PACKAGE).dtx
 
 $(CLSFILE): $(SOURCES)
-	yes y | xetex $(PACKAGE).ins
+	cd src && yes y | xetex $(PACKAGE).ins
 
 .PHONY: cls
 cls: $(CLSFILE)
@@ -43,12 +43,12 @@ viewdoc: doc
 
 .PHONY: clean
 clean:
-	$(LATEXMK) -c $(PACKAGE).dtx
-	-rm -rf *.glo $(CLSFILE)
+	cd src && $(LATEXMK) -c $(PACKAGE).dtx
+	-rm -rf src/*.glo $(CLSFILE)
 
 .PHONY: clean-dist
 clean-dist:
-	-rm -rf $(PACKAGE).pdf
+	-rm -rf src/$(PACKAGE).pdf
 
 .PHONY: clean-all
 clean-all: clean clean-dist FORCE_MAKE
@@ -73,16 +73,16 @@ regression-test: cls
 
 .PHONY: copy-only
 copy-only:
-	cp {bithesis.cls,assets/latexmkrc} $(SCAFFOLDDIR)/undergraduate-thesis
-	cp {bithesis.cls,assets/latexmkrc} $(SCAFFOLDDIR)/undergraduate-thesis-en
-	cp {bithesis.cls,assets/latexmkrc} $(SCAFFOLDDIR)/paper-translation
-	cp {bithesis.cls,assets/latexmkrc} $(SCAFFOLDDIR)/graduate-thesis
-	cp {bithesis.cls,assets/latexmkrc} $(SCAFFOLDDIR)/reading-report
-	cp {bithesis.cls,assets/latexmkrc} $(TESTDIR)/doctor-thesis
-	cp {bithesis.cls,assets/latexmkrc} $(TESTDIR)/autorefs
-	cp {bithesis.cls,assets/latexmkrc} ./handbook
-	cp {bitreport.cls,assets/latexmkrc} $(SCAFFOLDDIR)/lab-report
-	cp {bitbeamer.cls,assets/latexmkrc} $(SCAFFOLDDIR)/presentation-slide
+	cp {src/bithesis.cls,assets/latexmkrc} $(SCAFFOLDDIR)/undergraduate-thesis
+	cp {src/bithesis.cls,assets/latexmkrc} $(SCAFFOLDDIR)/undergraduate-thesis-en
+	cp {src/bithesis.cls,assets/latexmkrc} $(SCAFFOLDDIR)/paper-translation
+	cp {src/bithesis.cls,assets/latexmkrc} $(SCAFFOLDDIR)/graduate-thesis
+	cp {src/bithesis.cls,assets/latexmkrc} $(SCAFFOLDDIR)/reading-report
+	cp {src/bithesis.cls,assets/latexmkrc} $(TESTDIR)/doctor-thesis
+	cp {src/bithesis.cls,assets/latexmkrc} $(TESTDIR)/autorefs
+	cp {src/bithesis.cls,assets/latexmkrc} ./handbook
+	cp {src/bitreport.cls,assets/latexmkrc} $(SCAFFOLDDIR)/lab-report
+	cp {src/bitbeamer.cls,assets/latexmkrc} $(SCAFFOLDDIR)/presentation-slide
 
 .PHONY: copy
 copy: cls copy-only
